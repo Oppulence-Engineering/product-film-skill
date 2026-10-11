@@ -1,4 +1,6 @@
 <context>
+
+<!-- Before filling this template, apply the product-film skill's reference/remotion-quality.md. Its reading holds, story scope, viewing-size checks, and selected render profile refine the older beat/60–240 fps/loop defaults below. Replace placeholders with the actual brief; do not inherit an effect or frame rate merely because this template names it. -->
 <Product> <does what, for whom, in one or two sentences>.
 This film plays <where, from the interview>. It must read <with the sound off, if it plays muted>.
 Read `videos/BRAND.md` first. It holds the brief, the look, the brand element, the components, the product owner's rulings and what we may claim. This prompt only adds the story.
@@ -51,3 +53,26 @@ Never put will-change on anything the camera scales. Text never travels across t
 <start>
 Read `videos/BRAND.md`. Before any scene code, show the beat sheet on the measured grid and three style frames: the opening, one feature scene, the strongest moment. Wait for OK.
 </start>
+
+<quality-plan>
+Viewer question and visible answer:
+Target display size, actual fps, and direct UI or supersampled profile:
+Accepted visual direction and reference:
+
+| Shot / time | Source component or capture | Focal target and complete context | Action → visible result | Settle and reading hold | Caption / claim evidence |
+|---|---|---|---|---|---|
+| | | | | | |
+
+Representative sequence: <6–12-second artifact; orientation, action, result; same-moment before/after when revising>.
+Style frames: <orientation, detail, outcome at intended player size>.
+
+| Gate | PASS / REVISE / NOT_REVIEWED | Timestamp, artifact, observation, and correction |
+|---|---|---|
+| Product truth | | |
+| Composition and typography | | |
+| Motion, pacing, and caption synchronization | | |
+| Encode, assets, fonts, and full decode | | |
+| Complete playback at delivery size; audio if used | | |
+
+Carry forward only corrections actually verified in the export. Technical passes do not close visual findings.
+</quality-plan>

@@ -107,6 +107,10 @@ If already installed, compare the folders and preserve local customizations befo
 
 Use macOS with Screen Studio installed and local export available, plus a native-computer tool (such as Codex `cua_repl`) or a human operator. For staging capture, use an existing signed-in browser and approved demo data. ffmpeg/ffprobe support export checks; a player supports complete visual/audio review. This is a UI workflow, not unattended headless recording. The Node/Bun/Remotion requirements above apply only when building the Remotion portion; music is optional.
 
+### Remotion visual quality extension
+
+The [Remotion quality guide](plugins/product-film/skills/product-film/reference/remotion-quality.md) adds review of the actual export, product-backed shot planning, typography at the intended player size, purposeful framing and transitions, and deliberate reading holds. Prove one representative action/result sequence before scaling a film or batch. The [direct UI render profile](plugins/product-film/skills/product-film/reference/render.md#direct-ui-render-profile) supports crisp linear walkthroughs alongside the preserved supersampled workflow. Technical checks and visual acceptance are reported separately in the film prompt.
+
 ## License
 
 MIT, for the skill's own text and code. See [LICENSE](LICENSE).

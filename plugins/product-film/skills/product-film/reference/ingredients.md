@@ -1,5 +1,7 @@
 # Ingredients: how to make each one good
 
+Use [the Remotion quality extension](remotion-quality.md) to select and combine these techniques. Blur, word reveals, camera moves, and shared-element transitions are optional treatments; use them when they clarify the chosen story. The target must remain complete and readable after the actual crop and output scaling.
+
 Use only what the interview chose. Each note below is a default that held up in real reviews; the product's own rules win.
 
 ## Opening

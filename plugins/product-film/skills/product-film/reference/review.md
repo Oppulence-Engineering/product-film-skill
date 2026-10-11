@@ -1,5 +1,7 @@
 # Review loop: look at frames, fix, repeat
 
+Use [the Remotion visual acceptance gates](remotion-quality.md#prove-one-sequence-before-rendering-the-batch) alongside this checklist. Purposeful reading holds override the older every-beat/no-dead-bar default. Review at the intended player size and keep product truth, composition, motion, and technical delivery as separate results. Use `frame = round(seconds × actual_fps)`; the 60 fps examples below apply only to a 60 fps composition. `scripts/stills.ts` accepts `--props '{"fps":30}'` when the composition's `calculateMetadata` supports that prop.
+
 Stills are cheap; renders are not. Review in this order.
 
 ## 1. Stills at the moments that matter

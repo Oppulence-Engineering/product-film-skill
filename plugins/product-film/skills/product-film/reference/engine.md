@@ -1,5 +1,7 @@
 # Engine: the Remotion kit and how scenes are built
 
+For crisp UI walkthroughs, choose [the direct render profile](render.md#direct-ui-render-profile) and follow [the Remotion quality extension](remotion-quality.md) before applying the 60/240 fps defaults below. Use the actual composition fps consistently for cues, trims, stills, and duration; recompute duration in frames when fps changes. Confirm font readiness before layout measurement and inspect targets through the complete camera transform. A transition is not required for every cue.
+
 ## Workspace
 
 - **Where it lives.** Put the films in a `videos/` folder (its own workspace in a monorepo, or its own package) so they can import the product's components.

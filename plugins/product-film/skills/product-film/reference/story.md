@@ -1,5 +1,7 @@
 # Story: the shape, the beat plan and the checkpoint
 
+Apply [the Remotion quality extension](remotion-quality.md) before choosing this shape. Its single-workflow option, action/result evidence, and deliberate reading holds govern when the optional feature-reel and beat-activity defaults below do not fit the brief. Keep one source-backed outcome per shot and resolve visual direction with real style frames.
+
 Build the story from the interview's answers. Each part below is optional unless the brief needs it; ingredients.md says how to make each one good.
 
 ## A shape that works (30 to 60 s)

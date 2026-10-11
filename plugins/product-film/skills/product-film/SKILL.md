@@ -7,6 +7,12 @@ metadata:
 
 # Product film
 
+## Remotion quality extension — read before story or scene work
+
+For authored Remotion films and Remotion edits of product recordings, read [reference/remotion-quality.md](reference/remotion-quality.md). It adds art direction, product evidence, purposeful motion, readable framing, and visual acceptance gates. Apply it alongside the workflow below. Where defaults conflict, this extension governs feature count, beat activity, reading holds, camera changes, opening/ending, and render profile; the user's brief and product rules still win. The original techniques remain available.
+
+Before scaling a film or batch, prove one representative sequence with an orientation, action, and visible result. An encoder, freeze detector, or loop check provides technical evidence; visual quality needs inspection of the actual export at its intended display size. Keep the accepted direction and timestamped review in the existing film prompt.
+
 ## Additional workflows: Screen Studio and staging demos
 
 This extension adds native recording/editing and hybrid demos. The existing Remotion workflow below remains available in full. Its frame-driven animation, music-grid, 240 fps render, and seamless-loop rules apply to authored Remotion films; real recordings and linear tutorials use the workflow selected here. Reuse decisions already provided by the user and ask only for missing details that affect the requested result.

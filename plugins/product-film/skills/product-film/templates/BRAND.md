@@ -77,3 +77,15 @@ Hex only for anything that animates.
 
 ## Workspace
 - Folder, Remotion version, webpack override (Tailwind, aliases), fonts, scripts (beats, audio-edit, stills, render, verify, beat-sheet).
+
+## Remotion direction and viewing conditions
+
+- One viewer question and the visible answer:
+- Target player width / device, aspect ratio, actual fps, and linear or loop:
+- Visual reference or accepted direction; specific traits to carry forward:
+- Typography hierarchy and verified font files/weights:
+- Orientation / detail / outcome framing; required labels, values, units, and context:
+- Safe areas and caption placement at the intended viewing size:
+- Primary transition and its purpose; intentional reading holds:
+- Render profile: direct UI / supersampled; reason and sharpness evidence:
+- Approved representative sequence and corrections to reuse across the film:
