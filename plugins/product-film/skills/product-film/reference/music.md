@@ -1,5 +1,7 @@
 # Music: measure the song, cut it on bars, land every hit
 
+For voice-led films, use [narration and captions](production-capabilities.md#narration-and-captions): measure the actual voice duration, correct timed captions, lower music during speech and verify the complete mixed export. The song-led workflow below remains available.
+
 ## Get the song
 
 - Use the user's licensed track (stems if possible), or ask for a royalty-free one with its license link.

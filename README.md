@@ -111,6 +111,10 @@ Use macOS with Screen Studio installed and local export available, plus a native
 
 The [Remotion quality guide](plugins/product-film/skills/product-film/reference/remotion-quality.md) adds review of the actual export, product-backed shot planning, typography at the intended player size, purposeful framing and transitions, and deliberate reading holds. Prove one representative action/result sequence before scaling a film or batch. The [direct UI render profile](plugins/product-film/skills/product-film/reference/render.md#direct-ui-render-profile) supports crisp linear walkthroughs alongside the preserved supersampled workflow. Technical checks and visual acceptance are reported separately in the film prompt.
 
+### Runnable production extensions
+
+The [production capability guide](plugins/product-film/skills/product-film/reference/production-capabilities.md) adds four reusable scene recipes, landscape/square/portrait layouts, a one-command render test with deliberately broken fixtures, voice/music preparation with SRT captions, and a capture-readiness checker. Its synthetic proof exports exercise the helpers; real films still require source-backed content and complete playback review. All original workflows remain available.
+
 ## License
 
 MIT, for the skill's own text and code. See [LICENSE](LICENSE).

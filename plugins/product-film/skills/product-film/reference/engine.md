@@ -1,5 +1,7 @@
 # Engine: the Remotion kit and how scenes are built
 
+For source-backed action, table, comparison and result patterns plus separate landscape/square/portrait layouts, see [the runnable scene recipes](production-capabilities.md#four-scene-recipes-and-three-layouts). Adapt these patterns to the actual product; keep the existing kit below for its animation primitives.
+
 For crisp UI walkthroughs, choose [the direct render profile](render.md#direct-ui-render-profile) and follow [the Remotion quality extension](remotion-quality.md) before applying the 60/240 fps defaults below. Use the actual composition fps consistently for cues, trims, stills, and duration; recompute duration in frames when fps changes. Confirm font readiness before layout measurement and inspect targets through the complete camera transform. A transition is not required for every cue.
 
 ## Workspace

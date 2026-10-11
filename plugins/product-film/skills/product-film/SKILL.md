@@ -7,6 +7,12 @@ metadata:
 
 # Product film
 
+## Runnable production additions
+
+For reusable action/table/comparison/result scenes, landscape/square/portrait layouts, narrated films, or a repeatable render test, read [reference/production-capabilities.md](reference/production-capabilities.md). It links the scene templates, one-command quality runner, measured voice/music preparation and subtitle export. Use product tokens and observed states when adapting its synthetic fixtures.
+
+Before a Screen Studio take, that reference also provides a capture-readiness template and checker for fresh permission, source, resolution, export and idle-state observations. A readiness pass authorizes no extra action and does not prove capture. Keep decoded-media checks, full playback and visual/audio acceptance separate.
+
 ## Remotion quality extension — read before story or scene work
 
 For authored Remotion films and Remotion edits of product recordings, read [reference/remotion-quality.md](reference/remotion-quality.md). It adds art direction, product evidence, purposeful motion, readable framing, and visual acceptance gates. Apply it alongside the workflow below. Where defaults conflict, this extension governs feature count, beat activity, reading holds, camera changes, opening/ending, and render profile; the user's brief and product rules still win. The original techniques remain available.

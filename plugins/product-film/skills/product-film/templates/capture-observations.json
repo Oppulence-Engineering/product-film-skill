@@ -1,0 +1,14 @@
+{
+  "appVersion": "",
+  "recorderState": "unknown",
+  "output": "out/new-take.mp4",
+  "target": {"app": "", "title": "", "sourceId": "", "matches": 0, "width": 0, "height": 0, "minimumWidth": 1920, "minimumHeight": 1080},
+  "checks": {
+    "screenPermission": {"status": "unknown", "observedAt": "", "evidence": ""},
+    "accessibilityPermission": {"status": "unknown", "observedAt": "", "evidence": ""},
+    "source": {"status": "unknown", "observedAt": "", "evidence": ""},
+    "resolution": {"status": "unknown", "observedAt": "", "evidence": ""},
+    "export": {"status": "unknown", "observedAt": "", "evidence": ""},
+    "idle": {"status": "unknown", "observedAt": "", "evidence": ""}
+  }
+}

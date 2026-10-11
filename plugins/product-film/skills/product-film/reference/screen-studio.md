@@ -1,5 +1,7 @@
 # Screen Studio: record, edit, export
 
+For a repeatable check of fresh permission, source, resolution, export and idle observations before a take, use [capture readiness](production-capabilities.md#capture-readiness-and-observed-transitions). A readiness result is separate from the observed recording/edit/export states below.
+
 Use the native macOS app for actual product recordings and `.screenstudio` edits. Use this workflow without the Remotion engine, 240 fps master, music grid, or seamless-loop checks unless the brief specifically needs them.
 
 ## Prepare the job
