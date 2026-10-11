@@ -1,9 +1,26 @@
 ---
 name: product-film
 description: Make a showreel-grade product film (landing-page loop, launch video, promo, demo reel, social cut) in code with Remotion, built on the product's own design system, components and voice. Use when someone asks for a product video, landing video, promo, launch film, explainer or "motion design video" for their app, SaaS or codebase. It asks what to include, then covers design discovery, story, music sync, transitions, review loops and a verified final render.
+metadata:
+  short-description: Remotion films and Screen Studio staging demos
 ---
 
 # Product film
+
+## Additional workflows: Screen Studio and staging demos
+
+This extension adds native recording/editing and hybrid demos. The existing Remotion workflow below remains available in full. Its frame-driven animation, music-grid, 240 fps render, and seamless-loop rules apply to authored Remotion films; real recordings and linear tutorials use the workflow selected here. Reuse decisions already provided by the user and ask only for missing details that affect the requested result.
+
+| Request | Additional workflow |
+|---|---|
+| Record a demo or tutorial; edit, trim, reframe, caption, or export a Screen Studio project | Read [reference/screen-studio.md](reference/screen-studio.md). Use the native app and [templates/screen-studio-demo.md](templates/screen-studio-demo.md); no Remotion workspace is required. |
+| Demo Eigenn, Conduitt, or Cadense on staging | Also read [reference/staging-demos.md](reference/staging-demos.md) before browser navigation or recording. |
+| Combine recorded UI with animated titles or component emphasis | Capture and edit in Screen Studio first, then use its verified export in the existing Remotion workspace. See the hybrid handoff in the Screen Studio reference. |
+| Make an animated film from product components | Follow the original Remotion workflow below. |
+
+Honor the user's selected tool. Editing an existing project does not require staging login unless new footage or current behavior verification is needed. Follow an available product-specific demo skill for its brand, claims, and workspace conventions; these do not expand staging authorization. Use the available question tool or conversation in the current environment when the original workflow names AskUserQuestion.
+
+Keep source projects and each export version. A demo request does not authorize customer messages, financial actions, cloud uploads, commits, pushes, or publication; follow existing user authorization. A saved project is not a delivered video. The Screen Studio reference defines capture, edit, export, and review evidence separately.
 
 A film that looks like the product made it: its colors, type, components, logo and voice, cut to music. Built in Remotion inside (or beside) the product's codebase, so it reuses real components and stays editable.
 

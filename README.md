@@ -1,5 +1,7 @@
 # product-film
 
+Also supports Screen Studio recording/editing, staging demos, hybrid films, and Codex. See [the additive workflow and installation guide](#additional-support-screen-studio-staging-demos-and-codex) below; the original Remotion guide is preserved.
+
 A Claude Code skill that makes a showreel-grade product film in code: a landing-page loop, a launch video, a promo or a demo reel. It uses [Remotion](https://www.remotion.dev), your product's real components, its design tokens, its logo and its voice.
 
 The film looks like your product made it. Claude first learns your design system: rules files, tokens, components, the live site, and what you can and cannot claim. Then it asks you what the film should include, with options named after your real features and components. It writes all of that down as `videos/BRAND.md`, which wins over any default in the skill. Then it writes the story, cuts music on the beat, builds the scenes, reviews frames with you, and renders a verified final film.
@@ -68,6 +70,42 @@ plugins/product-film/skills/product-film/
 - [uv](https://docs.astral.sh/uv/) for Python. The scripts pull numpy and a full ffmpeg (imageio-ffmpeg) on demand; nothing is installed system-wide.
 - Remotion, added to your project by the skill. **Remotion has its own license:** it is free for individuals and small teams, and larger companies need a company license. See [remotion.dev/license](https://www.remotion.dev/license).
 - Music you have the rights to use.
+
+
+## Additional support: Screen Studio, staging demos, and Codex
+
+The original Remotion workflow above remains available. The skill also supports native Screen Studio recording and editing, plus hybrid films that use real product footage. Screen Studio jobs do not require a Remotion workspace.
+
+Example requests:
+
+> Use product-film to record a 36-second Eigenn scenario walkthrough at staging.eigenn.io in Screen Studio. Use approved demo data, screen-only capture, and export a local 1080p MP4.
+
+> Edit this .screenstudio project: trim the dead time, correct the zooms, and save a separate 9:16 version. Keep the original.
+
+> Plan a Conduitt invoice-timeline demo at staging.conduitt.io and a Cadense invoice-review demo at staging.cadense.io. Verify each session and fixture before recording.
+
+The [Screen Studio workflow](plugins/product-film/skills/product-film/reference/screen-studio.md) covers capture, existing-project edits, imported MP4s, trims, speed, zooms, crop, cursor/layout, audio/captions, local exports, posters, and optional Remotion handoff. It uses the installed app's visible controls and preserves editable originals. It does not depend on an undocumented Screen Studio API or direct project-file rewrites.
+
+The [staging profile](plugins/product-film/skills/product-film/reference/staging-demos.md) covers the three exact staging origins, workspace/fixture checks, human authentication handoff, and the distinction between previews, practice flows, and observed results. A demo request does not authorize customer messages or payments.
+
+Use the [capture/edit log](plugins/product-film/skills/product-film/templates/screen-studio-demo.md) for the shot list, narration, edits, evidence, and handoff. A saved project is not an exported video: delivery requires the output file, matching metadata, full decode, and playback review. Linear demos do not inherit the Remotion loop verifier's background/seam assumptions.
+
+### Codex installation from this checkout
+
+Codex is an alternative supported host. The Claude Code requirement above applies to the original Claude Code workflow; Codex jobs use the same skill folder with Codex's available local and computer-use tools.
+
+The original Claude Code installation above is unchanged. For Codex, copy the skill from this checkout to the personal skills directory:
+
+```bash
+mkdir -p ~/.codex/skills
+cp -R plugins/product-film/skills/product-film ~/.codex/skills/
+```
+
+If already installed, compare the folders and preserve local customizations before updating. Restart the session if the skill list has already been loaded.
+
+### Screen Studio requirements
+
+Use macOS with Screen Studio installed and local export available, plus a native-computer tool (such as Codex `cua_repl`) or a human operator. For staging capture, use an existing signed-in browser and approved demo data. ffmpeg/ffprobe support export checks; a player supports complete visual/audio review. This is a UI workflow, not unattended headless recording. The Node/Bun/Remotion requirements above apply only when building the Remotion portion; music is optional.
 
 ## License
 

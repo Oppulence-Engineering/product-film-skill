@@ -1,5 +1,7 @@
 # Final render, verification and delivery
 
+This pipeline is for Remotion films that use the master/loop contract below. For Screen Studio exports and linear demos, use [screen-studio.md](screen-studio.md#export-and-inspect-the-actual-file); do not apply fixed background or seamless-loop assertions to ordinary footage.
+
 ## Pipeline (`scripts/render.ts`)
 
 1. **Master.** 240 fps, PNG frames, H.264 at CRF 8, `yuv444p`, muted: `--props '{"fps":240}' --image-format png --pixel-format yuv444p --crf 8 --muted`.

@@ -1,5 +1,9 @@
 # Interview: ask what goes in
 
+## Screen Studio and Codex extension
+
+Reuse answers already supplied. For a real recording, existing project edit, or hybrid, follow [screen-studio.md](screen-studio.md) and resolve only missing source, journey, delivery, and audio choices. The original music/ingredients rounds below remain available for authored films; they are optional for tutorials and narrow edits. Use the current environment's question tool within its limits, or conversation, when AskUserQuestion is unavailable.
+
 The user decides what the film shows and which ingredients it uses. Ask after a quick discovery pass, so every option is concrete: name their real features, screens, components, logo and partners. Use AskUserQuestion:
 - at most 4 questions per call, 2 to 4 options each ("Other" is added for them)
 - `multiSelect` where several answers fit
